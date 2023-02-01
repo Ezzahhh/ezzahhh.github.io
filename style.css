@@ -84,6 +84,7 @@ a {
 .fancy:hover > .outer > .inner > .letter {
   background: linear-gradient(to right, var(--blue), var(--green), var(--blue));
   background-size: 1000%;
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: background-pan 30s linear infinite;
@@ -132,7 +133,6 @@ body.menu-toggled > .meta-link > span {
 }
 
 #yt-link > i {
-  /*   color: rgb(239, 83, 80); */
   color: rgb(94, 106, 210);
 }
 
