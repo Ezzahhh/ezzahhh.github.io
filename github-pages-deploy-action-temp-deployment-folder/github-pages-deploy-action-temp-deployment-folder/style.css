@@ -134,6 +134,7 @@ body.menu-toggled > .meta-link > span {
 
 #yt-link > i {
   color: rgb(94, 106, 210);
+  width: 20px;
 }
 
 .meta-link {
@@ -160,14 +161,18 @@ body.menu-toggled > .meta-link > span {
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.meta-link > i,
+/* .meta-link > i,
 .meta-link > span {
   height: 20px;
   line-height: 20px;
-}
+} */
 
 .meta-link > span {
   color: white;
   font-family: "Rubik", sans-serif;
   font-weight: 500;
+}
+
+svg {
+  display: block;
 }
